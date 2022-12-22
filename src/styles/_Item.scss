@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 1rem;
+  min-height: 60px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  .itemHeader {
+    width: 10px;
+    height: 60px;
+    background-color: rgb(122, 158, 197);
+  }
+  input {
+    width: 28px;
+    height: 28px;
+    margin: 0 20px;
+    flex: 1;
+    accent-color: rgb(88, 151, 217);
+  }
+
+  p {
+    color: rgb(122, 158, 197);
+    font-size: 2rem;
+    flex: 9;
+    word-wrap: break-word;
+    width: 100px;
+  }
+  .btn-delete {
+    color: rgb(122, 158, 197);
+    font-size: 1.5rem;
+    cursor: pointer;
+    flex: 1;
+  }
+  .strike-through {
+    text-decoration: line-through;
+  }
+}
